@@ -1,3 +1,23 @@
+// COLOR VARIABLES
+$color-primary: #f4d04e;
+
+$color-white: #fff;
+$color-black: #121212;
+$color-grey: #808080;   
+
+
+
+// FONT VARIABLES
+$font-primary: 'Figtree', sans-serif;
+
+//RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200px / 16
+$bp-large: 62.5em; // 1000px / 16
+$bp-medium: 50em; // 800px / 16
+$bp-small: 37.5em; // 600px / 16
+
+
+
 // Reset
 
 *,
@@ -12,3 +32,19 @@ html {
     box-sizing: border-box;
     font-size: 62.5%; // 10px/16 = 62.5% -> 1rem  = 10px
 }
+
+
+body {
+    font-family: $font-primary;
+    color: $color-grey;
+    font-weight: 300;
+    line-height: 1.6;
+    
+}
+
+.container {
+    background-color: $color-primary;
+    
+}
+
+
